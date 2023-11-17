@@ -10,9 +10,9 @@ function onsubmit(){
 	const phoneNumber=document.getElementById("tel").value;
 	const email=document.getElementById("email").value;
 
-	const message= `First Name: ${firstName}`+"\n"+
-		`Last Name: ${lastName}`+"\n"+
-		`Phone Number: ${phoneNumber}`+"\n"+
-		`Email: ${email}`;
+	const message= `First Name: John`+"\n"+
+		`Last Name: Doe`+"\n"+
+		`Phone Number: 1234567890`+"\n"+
+		`Email: john.doe@example.com`;
 	alert(message);
 }
