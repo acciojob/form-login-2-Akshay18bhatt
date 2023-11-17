@@ -5,5 +5,5 @@ let form =document.querySelector("form");
 form.addEventListener("submit", onsubmit);
 
 function onsubmit(){
-	alert("First Name:");
+	alert("First Name: John");
 }
